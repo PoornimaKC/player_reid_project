@@ -37,14 +37,21 @@ Detect and track soccer players consistently in video footage — ensuring each 
    ```bash
    conda create -n player_reid python=3.10
    conda activate player_reid
+   
 2. **Install dependencies**
+   ```bash
    pip install ultralytics opencv-python filterpy
+   
 3. **Run tracking**
+   ```bash
    python track.py
-Output video will be saved as tracked_output.mp4.
+
+- Output video will be saved as tracked_output.mp4.
+
+---
 
 **Limitations**
-Simple SORT version used: assigns new IDs frequently due to lack of Kalman filtering and IOU matching.
+- Simple SORT version used: assigns new IDs frequently due to lack of Kalman filtering and IOU matching.
 
-For production, appearance features or DeepSORT should be used for robust re-identification.
+- For production, appearance features or DeepSORT should be used for robust re-identification.
 2
