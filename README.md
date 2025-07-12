@@ -54,4 +54,11 @@ Detect and track soccer players consistently in video footage — ensuring each 
 - Simple SORT version used: assigns new IDs frequently due to lack of Kalman filtering and IOU matching.
 
 - For production, appearance features or DeepSORT should be used for robust re-identification.
-2
+
+**Report**
+See REPORT.md for methodology, results, and future work.
+
+**Credits**
+This is part of an interview assignment – showcasing my ability to tackle real-world sports analytics problems.
+
+****
